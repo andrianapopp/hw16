@@ -12,6 +12,8 @@ const degree = prompt(`Degree`)
 let b = Number (degree)
 if (num === null || degree === null){
   alert(`wrong type`)
+} else if (num === `` && degree === ``){
+  alert(`empty`)
 } else {
   const result = x (a, b)
   alert(result)
